@@ -113,7 +113,6 @@ public class ContatoDao implements Icrud{
                     listaDeContatos.remove(i);
                     break;
                 }
-                System.out.println(listaDeContatos.get(i).toString());
             }
             FileWriter arquivo = new FileWriter(caminhoDoArquivo.toFile(), false);
             BufferedWriter buffArquivo = new BufferedWriter(arquivo);
