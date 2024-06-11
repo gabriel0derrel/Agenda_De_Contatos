@@ -365,7 +365,6 @@ public class MainUI extends javax.swing.JFrame {
             }
         });
 
-        jTable1.setBackground(new java.awt.Color(255, 255, 255));
         jTable1.setForeground(new java.awt.Color(102, 102, 0));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -538,65 +537,65 @@ public class MainUI extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1_Logo, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(291, 291, 291)
-                .addComponent(jLabel7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel1_Info, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jButton1_incluir, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(48, 48, 48)
-                .addComponent(jButton8_excluir)
-                .addGap(47, 47, 47)
-                .addComponent(jButton6_alterar)
-                .addGap(51, 51, 51)
-                .addComponent(jButton3_consultar)
-                .addGap(299, 299, 299))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(130, 130, 130)
-                .addComponent(jButton7_pdf, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(48, 48, 48)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jTextField4_Logradouro, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jFormattedTextField1_numero, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(12, 12, 12)
-                                .addComponent(jFormattedTextField2_cep, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(12, 12, 12)
-                                .addComponent(jComboBox1_Estado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(12, 12, 12)
-                                .addComponent(jTextField9_Cidade, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jTextField6_Complemento, javax.swing.GroupLayout.PREFERRED_SIZE, 562, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap()
+                        .addComponent(jLabel1_Logo, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(291, 291, 291)
+                        .addComponent(jLabel7)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel1_Info, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jButton1_incluir, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(48, 48, 48)
+                        .addComponent(jButton8_excluir)
+                        .addGap(47, 47, 47)
+                        .addComponent(jButton6_alterar)
+                        .addGap(51, 51, 51)
+                        .addComponent(jButton3_consultar)
+                        .addGap(307, 307, 307))
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGap(130, 130, 130)
+                        .addComponent(jButton7_pdf, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(48, 48, 48)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel5)
+                                .addComponent(jLabel1)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jFormattedTextField1_telefone, javax.swing.GroupLayout.PREFERRED_SIZE, 337, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jTextField4_Logradouro, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(jFormattedTextField1_numero, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(12, 12, 12)
+                                        .addComponent(jFormattedTextField2_cep, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(12, 12, 12)
+                                        .addComponent(jComboBox1_Estado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(12, 12, 12)
+                                        .addComponent(jTextField9_Cidade, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(jTextField6_Complemento, javax.swing.GroupLayout.PREFERRED_SIZE, 562, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel4)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jTextField2_Email, javax.swing.GroupLayout.PREFERRED_SIZE, 337, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel3)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jTextField1_Nome, javax.swing.GroupLayout.PREFERRED_SIZE, 337, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(38, 38, 38)
-                        .addComponent(jButton1_limparDados, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel1_info, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane1)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jLabel5)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jFormattedTextField1_telefone, javax.swing.GroupLayout.PREFERRED_SIZE, 337, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jLabel4)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jTextField2_Email, javax.swing.GroupLayout.PREFERRED_SIZE, 337, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jLabel3)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jTextField1_Nome, javax.swing.GroupLayout.PREFERRED_SIZE, 337, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGap(38, 38, 38)
+                                .addComponent(jButton1_limparDados, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addGap(18, 18, 18)
+                        .addComponent(jPanel1_info, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jScrollPane1)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -960,6 +959,83 @@ public class MainUI extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton1_limparDadosActionPerformed
 
+    public ArrayList<Contato> consultar(Contato filtro) throws Exception {
+        ArrayList<Contato> contatosFiltrados = new ArrayList<>();
+        try {
+            ArrayList<Contato> listaDeContatos = arquivo.listar();
+
+            for (Contato contato : listaDeContatos) {
+                boolean match = true;
+
+                if (filtro.getNome() != null && !filtro.getNome().isEmpty()) {
+                    if (!contato.getNome().toLowerCase().contains(filtro.getNome().toLowerCase())) {
+                        match = false;
+                    }
+                }
+
+                if (filtro.getTelefone() != null && !filtro.getTelefone().toString().isEmpty()) {
+                    if (!contato.getTelefone().toString().contains(filtro.getTelefone().toString())) {
+                        match = false;
+                    }
+                }
+
+                if (filtro.getEmail() != null && !filtro.getEmail().isEmpty()) {
+                    if (!contato.getEmail().toLowerCase().contains(filtro.getEmail().toLowerCase())) {
+                        match = false;
+                    }
+                }
+
+                if (filtro.getEndereco().getEstado() != null && !filtro.getEndereco().getEstado().isEmpty()) {
+                    if (!contato.getEndereco().getEstado().toLowerCase().contains(filtro.getEndereco().getEstado().toLowerCase())) {
+                        match = false;
+                    }
+                }
+                
+                if (filtro.getEndereco().getCep()!= null && !filtro.getEndereco().getCep().isEmpty()) {
+                    if (!contato.getEndereco().getCep().toLowerCase().contains(filtro.getEndereco().getCep().toLowerCase())) {
+                        match = false;
+                    }
+                }
+                
+                if (filtro.getEndereco().getComplemento()!= null && !filtro.getEndereco().getComplemento().isEmpty()) {
+                    if (!contato.getEndereco().getComplemento().toLowerCase().contains(filtro.getEndereco().getComplemento().toLowerCase())) {
+                        match = false;
+                    }
+                }
+                
+                if (filtro.getEndereco().getLogradouro()!= null && !filtro.getEndereco().getLogradouro().isEmpty()) {
+                    if (!contato.getEndereco().getLogradouro().toLowerCase().contains(filtro.getEndereco().getLogradouro().toLowerCase())) {
+                        match = false;
+                    }
+                }
+                
+                if (filtro.getEndereco().getNumero()!= null && !filtro.getEndereco().getNumero().isEmpty()) {
+                    if (!contato.getEndereco().getNumero().toLowerCase().contains(filtro.getEndereco().getNumero().toLowerCase())) {
+                        match = false;
+                    }
+                }
+                
+                if (filtro.getEndereco().getCidade()!= null && !filtro.getEndereco().getCidade().isEmpty()) {
+                    if (!contato.getEndereco().getCidade().toLowerCase().contains(filtro.getEndereco().getCidade().toLowerCase())) {
+                        match = false;
+                    }
+                }
+
+                if (match) {
+                    contatosFiltrados.add(contato);
+                }
+            }
+
+            if (contatosFiltrados.isEmpty()) {
+                throw new Exception("Contato não Encontrado");
+            }
+        } catch (Exception erro) {
+            throw erro;
+        }
+
+        return contatosFiltrados;
+    }
+    
     // Função de filtragem para a consulta
     private void filterTable() throws Exception {
         String nome = "", email = "", telefone = "", logradouro = "", numero = "", cep = "", estado = "", cidade = "", complemento = "";
@@ -999,7 +1075,7 @@ public class MainUI extends javax.swing.JFrame {
         Contato contato = new Contato(nome, telefoneObj, email, endereco);
 
         // Pega todos os contatos filtrados e insere na table após deletar a atual
-        ArrayList<Contato> listaDeContatos = arquivo.consultar(contato);
+        ArrayList<Contato> listaDeContatos = consultar(contato);
         DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
         model.setRowCount(0);
 
@@ -1089,6 +1165,11 @@ public class MainUI extends javax.swing.JFrame {
 
             jButton3_consultar.setBackground(Color.getHSBColor(0.1667f, 0.6f, 0.55f));
         }
+        try {
+            arquivo.consultar(jTextField1_Nome.getText());
+        } catch (Exception ex) {
+            Logger.getLogger(MainUI.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_jButton3_consultarActionPerformed
 
     // Botão de pdf
@@ -1101,9 +1182,9 @@ public class MainUI extends javax.swing.JFrame {
             float marginBottom = 20;
             Document document = new Document(PageSize.A4, marginLeft, marginRight, marginTop, marginBottom);
             
-            //String filePath = "TabelaDados.pdf";
             DefaultTableModel model = (DefaultTableModel)jTable1.getModel();
             Path filePath = encontrarCaminhoDoArquivo("TabelaDados.pdf");
+            
             try {
                 // Criação do PDF
                 PdfWriter.getInstance(document, new FileOutputStream(filePath.toFile()));
