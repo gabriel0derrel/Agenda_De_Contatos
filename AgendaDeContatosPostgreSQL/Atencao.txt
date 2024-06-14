@@ -1,0 +1,7 @@
+Quando for configurar o Postgre adcione um usuáio "aluno" com senha "123456"
+Quando for registrar um servidor, pode colocar qualquer nome, mas, na Connection, o host deve ser "localhost", a username e a password
+devem ser os mesmos do usuarrio configurado anteriormente
+Crie uma Database chamada ContatosDB
+
+https://www.dio.me/articles/instale-o-postgresql-com-pgadmin4-no-ubuntu-2004
+https://www.digitalocean.com/community/tutorials/como-instalar-e-configurar-o-pgadmin-4-no-modo-servidor-pt
