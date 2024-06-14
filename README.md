@@ -5,7 +5,7 @@ Este repositório contém um projeto de lista de contatos desenvolvido em Java u
 ## Organização do Projeto
 
 - Persistencia:
-  - ContatoDao: Responsável pela manipulação do arquivo
+  - ContatoDao: Responsável pela persistência dos dados.
 - Controle: Responsável pela comunicação entre a tela e a persistencia.
 - Modelos Principais:
   - Contato
@@ -27,7 +27,7 @@ Este repositório contém um projeto de lista de contatos desenvolvido em Java u
 - Linguagem de Programação: Java
 - IDE: NetBeans
 - Interface Gráfica: Swing (Javax.swing)
-- Persistência de Dados: Arquivo Texto(csv)
+- Persistência de Dados: Arquivo Texto(csv) e SGBD(PostgreSQL)
 
 ## Autor
 
