@@ -33,3 +33,10 @@ Este repositório contém um projeto de lista de contatos desenvolvido em Java u
 
 - [Gabriel Derrel](https://github.com/gabriel0derrel)
 - [Lucas Pereira Nunes](https://github.com/Prizrak2)
+
+## Atenção!
+- Para executar escolha a versão do projeto e execute o arquivo (.jar) que há dentro da pasta "dist" do respectivo projeto, é necessário ter o "JAVA SE Development Kit" para que seja executado com sucesso, também pode ser aberto pelo "NETBEANS IDE"
+
+- Imagens não serão mostradas se executado da primeira maneira, caso queira ver o projeto completo é necessário o uso do "NETBEANS"
+
+- Caso queira testar o projeto com o SGBD "PostgreeSQL" é necessário abrir um servidor de banco de dados no "pgAdmin" e alterar as informações do servidor no arquivo "ContatoDao"
