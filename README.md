@@ -39,4 +39,5 @@ Este repositório contém um projeto de lista de contatos desenvolvido em Java u
 
 - Imagens não serão mostradas se executado da primeira maneira, caso queira ver o projeto completo é necessário o uso do "NETBEANS"
 
-- Caso queira testar o projeto com o SGBD "PostgreeSQL" é necessário abrir um servidor de banco de dados no "pgAdmin" e alterar as informações do servidor no arquivo "ContatoDao"
+- Caso queira testar o projeto com o SGBD "PostgreeSQL" é necessário abrir um servidor de banco de dados no "pgAdmin" e alterar as informações do servidor no arquivo "AgendaDeContatosPostgreSQL/src/conexao
+/ConexaoDB.java"
